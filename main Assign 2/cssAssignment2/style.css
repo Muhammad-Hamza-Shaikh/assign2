@@ -1,0 +1,44 @@
+.main{
+    border: 10px black dashed;
+background-color:grey ; 
+width: 400px;
+height: 400px;
+padding: 25px;
+margin-left: 430px;
+margin-top: 100px;
+}
+.head{
+    text-align: center;
+}
+.img{
+    margin-left: 100px;
+}
+.deet{
+    font-size: 35px;
+    text-align: center;
+}
+.para{
+    overflow-y: scroll;
+    height: 70px;
+    margin: 10px 0;
+    text-align: left;
+    min-width: 100px;
+    max-width: 100%;
+    padding: 10px;  
+}
+.btn1 {
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color:rgb(100, 92, 92);
+    border: none;
+    border-radius: 20px;
+ margin-left: 600px;
+    transition: background-color 0.3s, transform 0.3s; /* For smooth hover effect */
+}
+.btn1:hover {
+    background-color: #d3d3d3;
+    transform: scale(1.1); /* Slightly increase the size */
+}.btn1 a {
+    text-decoration: none;
+    color: black;
+}
